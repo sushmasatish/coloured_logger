@@ -1,9 +1,9 @@
 require 'singleton'
 require 'active_support/all'
-require 'colored_logger/version'
-require 'colored_logger/logger'
+require 'coloured_logger/version'
+require 'coloured_logger/logger'
 
-module ColoredLogger
+module ColouredLogger
   class CLogger
     include Singleton
 

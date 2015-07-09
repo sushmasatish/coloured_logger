@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'colored_logger/version'
+require 'coloured_logger/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "colored_logger"
-  spec.version       = ColoredLogger::VERSION
+  spec.name          = "coloured_logger"
+  spec.version       = ColouredLogger::VERSION
   spec.authors       = ["Sushma Satish"]
   spec.email         = ["sushmasatish@gmail.com"]
 
   spec.summary       = %q{Provides a handy tool to colorize logs.}
-  spec.description   = %q{Using colored logger, now all your logs are colored based on their severity.}
-  spec.homepage      = "https://github.com/sushmasatish/colored_logger"
+  spec.description   = %q{Using coloured logger, now all your logs are coloured based on their severity.}
+  spec.homepage      = "https://github.com/sushmasatish/coloured_logger"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

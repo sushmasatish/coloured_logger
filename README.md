@@ -1,13 +1,13 @@
-# ColoredLogger
+# ColouredLogger
 
-Colored Logger provides a handy way to colorize your logs based on the log severity: (debug, info, warn, error, fatal, unknown, perf)
+Coloured Logger provides a handy way to colorize your logs based on the log severity: (debug, info, warn, error, fatal, unknown, perf)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'colored_logger'
+gem 'coloured_logger'
 ```
 
 And then execute:
@@ -16,22 +16,22 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install colored_logger
+    $ gem install coloured_logger
 
 ## Usage
 
 ```ruby
-ColoredLogger::CLogger.debug("method_or_task_name","message to be logged")
-ColoredLogger::CLogger.info("method_or_task_name","message to be logged")
-ColoredLogger::CLogger.warn("method_or_task_name","message to be logged")
-ColoredLogger::CLogger.error("method_or_task_name","message to be logged")
-ColoredLogger::CLogger.fatal("method_or_task_name","message to be logged")
-ColoredLogger::CLogger.unknown("method_or_task_name","message to be logged")
+ColouredLogger::CLogger.debug("method_or_task_name","message to be logged")
+ColouredLogger::CLogger.info("method_or_task_name","message to be logged")
+ColouredLogger::CLogger.warn("method_or_task_name","message to be logged")
+ColouredLogger::CLogger.error("method_or_task_name","message to be logged")
+ColouredLogger::CLogger.fatal("method_or_task_name","message to be logged")
+ColouredLogger::CLogger.unknown("method_or_task_name","message to be logged")
 start_time = Time.now.ago(10.minute)
-ColoredLogger::CLogger.log_time("method_or_task_name",start_time,"to finish job")
+ColouredLogger::CLogger.log_time("method_or_task_name",start_time,"to finish job")
 ```
 
-![alt tag](https://github.com/sushmasatish/colored_logger/blob/master/docs/demo_output.png)
+![alt tag](https://github.com/sushmasatish/coloured_logger/blob/master/docs/demo_output.png)
 
 ## Development
 
@@ -41,7 +41,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/sushmasatish/colored_logger.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sushmasatish/coloured_logger.
 
 
 ## License
