@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sushmasatish@gmail.com"]
 
   spec.summary       = %q{Provides a handy tool to colorize logs.}
-  spec.description   = %q{Using colored logger, now all your logs are colored based on their priority.}
+  spec.description   = %q{Using colored logger, now all your logs are colored based on their severity.}
   spec.homepage      = "https://github.com/sushmasatish/colored_logger"
   spec.license       = "MIT"
 
