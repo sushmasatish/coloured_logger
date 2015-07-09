@@ -20,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
+ColoredLogger::CLogger.debug("method_or_task_name","message to be logged")
+ColoredLogger::CLogger.info("method_or_task_name","message to be logged")
+ColoredLogger::CLogger.warn("method_or_task_name","message to be logged")
+ColoredLogger::CLogger.error("method_or_task_name","message to be logged")
+ColoredLogger::CLogger.fatal("method_or_task_name","message to be logged")
+ColoredLogger::CLogger.unknown("method_or_task_name","message to be logged")
+start_time = Time.now.ago(10.minute)
+ColoredLogger::CLogger.log_time("method_or_task_name",start_time,"to finish job")
+```
 
+![alt tag](https://github.com/sushmasatish/colored_logger/blob/master/docs/demo_output.png)
 
 ## Development
 
